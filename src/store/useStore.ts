@@ -34,7 +34,10 @@ interface StoreState {
   updateSettings: (s: Partial<Settings>) => void
   resetProgress: () => void
   restoreBank: () => void
-  resetAll: () => void
+  /** Serialize personal data (progress, scores, flags, settings) for backup/export. */
+  exportData: () => Record<string, unknown>
+  /** Restore personal data from a backup object. Returns false if the payload is unusable. */
+  importData: (raw: unknown) => boolean
 }
 
 const DEFAULT_SETTINGS: Settings = {
@@ -106,20 +109,35 @@ export const useStore = create<StoreState>()(
       restoreBank: () =>
         set({ questions: liveOnly(sample as Question[]), seeded: true, seedVersion: SEED_VERSION, custom: false }),
 
-      // Wipe all personal data (progress, scores, settings) but immediately re-seed the
-      // built-in bank so the app is never left blank — only the learner's data is cleared.
-      resetAll: () =>
-        set({
-          questions: liveOnly(sample as Question[]),
-          progress: {},
-          mockResults: [],
-          flagged: {},
-          dailyCounts: {},
-          settings: DEFAULT_SETTINGS,
-          seeded: true,
-          seedVersion: SEED_VERSION,
-          custom: false,
-        }),
+      exportData: () => {
+        const s = get()
+        return {
+          app: 'twdt',
+          version: 1,
+          exportedAt: Date.now(),
+          progress: s.progress,
+          mockResults: s.mockResults,
+          flagged: s.flagged,
+          dailyCounts: s.dailyCounts,
+          settings: s.settings,
+        }
+      },
+
+      importData: (raw) => {
+        const d = raw as Record<string, unknown> | null
+        if (!d || typeof d !== 'object') return false
+        const patch: Partial<StoreState> = {}
+        if (d.progress && typeof d.progress === 'object') patch.progress = d.progress as StoreState['progress']
+        if (Array.isArray(d.mockResults)) patch.mockResults = d.mockResults as StoreState['mockResults']
+        if (d.flagged && typeof d.flagged === 'object') patch.flagged = d.flagged as StoreState['flagged']
+        if (d.dailyCounts && typeof d.dailyCounts === 'object')
+          patch.dailyCounts = d.dailyCounts as StoreState['dailyCounts']
+        if (d.settings && typeof d.settings === 'object')
+          patch.settings = { ...DEFAULT_SETTINGS, ...(d.settings as object) }
+        if (Object.keys(patch).length === 0) return false
+        set(patch)
+        return true
+      },
     }),
     {
       name: 'twdt-store-v1',

@@ -1,17 +1,39 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { useStore } from '../store/useStore'
 import { PageHeader } from '../components/ui'
 
 export default function Settings() {
-  const { settings, updateSettings, resetProgress, restoreBank, resetAll } = useStore()
+  const { settings, updateSettings, resetProgress, restoreBank, exportData, importData } = useStore()
   const [confirmProgress, setConfirmProgress] = useState(false)
   const [showAdv, setShowAdv] = useState(false)
-  const [wipeText, setWipeText] = useState('')
   const [toast, setToast] = useState<string | null>(null)
+  const fileRef = useRef<HTMLInputElement>(null)
 
   const flash = (m: string) => {
     setToast(m)
     setTimeout(() => setToast(null), 2500)
+  }
+
+  const doExport = () => {
+    const blob = new Blob([JSON.stringify(exportData(), null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const d = new Date()
+    const stamp = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `駕照筆試-進度備份-${stamp}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+    flash('已匯出進度備份')
+  }
+
+  const doImport = async (f: File) => {
+    try {
+      const obj = JSON.parse(await f.text())
+      flash(importData(obj) ? '已匯入進度備份' : '檔案格式不符，未匯入')
+    } catch {
+      flash('無法讀取檔案')
+    }
   }
 
   return (
@@ -64,6 +86,30 @@ export default function Settings() {
       <div className="card space-y-3 p-4">
         <h2 className="text-sm font-semibold text-slate-700">資料管理</h2>
 
+        {/* Backup — recoverable by design */}
+        <div className="flex gap-2">
+          <button className="btn-ghost flex-1" onClick={doExport}>
+            匯出進度
+          </button>
+          <button className="btn-ghost flex-1" onClick={() => fileRef.current?.click()}>
+            匯入進度
+          </button>
+          <input
+            ref={fileRef}
+            type="file"
+            accept="application/json,.json"
+            className="hidden"
+            onChange={(e) => {
+              const f = e.target.files?.[0]
+              if (f) doImport(f)
+              e.currentTarget.value = ''
+            }}
+          />
+        </div>
+        <p className="text-xs text-slate-400">
+          匯出會下載一個備份檔；換手機或清除前先匯出，日後可「匯入進度」還原。題庫不受影響。
+        </p>
+
         {/* Clear progress — deliberate two-step, keeps the question bank */}
         {!confirmProgress ? (
           <button className="btn-ghost w-full" onClick={() => setConfirmProgress(true)}>
@@ -72,7 +118,7 @@ export default function Settings() {
         ) : (
           <div className="space-y-2 rounded-xl bg-amber-50 p-3">
             <p className="text-sm text-amber-800">
-              將清除所有<b>作答進度、錯題本與模擬考成績</b>。題庫（1,090 題）與設定會保留。此動作無法復原。
+              將清除所有<b>作答進度、錯題本與模擬考成績</b>。題庫與設定會保留。建議先「匯出進度」備份。此動作無法復原。
             </p>
             <div className="flex gap-2">
               <button className="btn-ghost flex-1" onClick={() => setConfirmProgress(false)}>
@@ -98,45 +144,14 @@ export default function Settings() {
         >
           {showAdv ? '▾' : '▸'} 進階
         </button>
-
         {showAdv && (
-          <div className="space-y-3 rounded-xl bg-slate-50 p-3">
-            <div>
-              <button className="btn-ghost w-full" onClick={() => { restoreBank(); flash('已還原內建題庫') }}>
-                還原內建題庫
-              </button>
-              <p className="mt-1 text-xs text-slate-400">
-                重新載入內建 1,090 題（例如匯入的題庫有誤時）。<b>不會</b>清除你的進度。
-              </p>
-            </div>
-
-            <div className="border-t border-slate-200 pt-3">
-              <p className="text-sm font-medium text-rose-700">清除所有資料</p>
-              <p className="mt-0.5 text-xs text-slate-500">
-                清除進度、錯題、模擬考成績與設定。題庫會保留為內建 1,090 題，App 不會變空白。無法復原。
-              </p>
-              <p className="mt-2 text-xs text-slate-500">
-                請輸入 <code className="rounded bg-white px-1 font-mono text-rose-700">清除</code> 以確認：
-              </p>
-              <input
-                value={wipeText}
-                onChange={(e) => setWipeText(e.target.value)}
-                placeholder="清除"
-                className="mt-1 w-full rounded-lg border-2 border-slate-200 bg-white px-3 py-2 text-sm"
-              />
-              <button
-                disabled={wipeText.trim() !== '清除'}
-                onClick={() => {
-                  resetAll()
-                  setWipeText('')
-                  setShowAdv(false)
-                  flash('已清除所有資料，題庫已保留')
-                }}
-                className="btn mt-2 w-full bg-rose-600 text-white disabled:opacity-40"
-              >
-                清除所有資料
-              </button>
-            </div>
+          <div className="rounded-xl bg-slate-50 p-3">
+            <button className="btn-ghost w-full" onClick={() => { restoreBank(); flash('已還原內建題庫') }}>
+              還原內建題庫
+            </button>
+            <p className="mt-1 text-xs text-slate-400">
+              重新載入內建 1,090 題（例如匯入的題庫有誤時）。<b>不會</b>清除你的進度。
+            </p>
           </div>
         )}
       </div>
