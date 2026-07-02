@@ -33,6 +33,7 @@ interface StoreState {
   addMockResult: (r: MockResult) => void
   updateSettings: (s: Partial<Settings>) => void
   resetProgress: () => void
+  restoreBank: () => void
   resetAll: () => void
 }
 
@@ -101,16 +102,22 @@ export const useStore = create<StoreState>()(
       resetProgress: () =>
         set({ progress: {}, mockResults: [], flagged: {}, dailyCounts: {} }),
 
+      // Re-load the built-in question bank without touching progress (recover from a bad import).
+      restoreBank: () =>
+        set({ questions: liveOnly(sample as Question[]), seeded: true, seedVersion: SEED_VERSION, custom: false }),
+
+      // Wipe all personal data (progress, scores, settings) but immediately re-seed the
+      // built-in bank so the app is never left blank — only the learner's data is cleared.
       resetAll: () =>
         set({
-          questions: [],
+          questions: liveOnly(sample as Question[]),
           progress: {},
           mockResults: [],
           flagged: {},
           dailyCounts: {},
           settings: DEFAULT_SETTINGS,
-          seeded: false,
-          seedVersion: 0,
+          seeded: true,
+          seedVersion: SEED_VERSION,
           custom: false,
         }),
     }),
