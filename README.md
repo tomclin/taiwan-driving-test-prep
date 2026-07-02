@@ -4,6 +4,8 @@ A mobile-first, installable PWA for practising Taiwan's **2026 car driving writt
 
 Built with **Vite + React + TypeScript + Tailwind CSS**. Deployable to Vercel or GitHub Pages as a static site.
 
+**中文文件：** [設計說明](docs/DESIGN-zh-TW.md) · [使用手冊](docs/USER-GUIDE-zh-TW.md)　|　**Live:** https://tomclin.github.io/taiwan-driving-test-prep/
+
 ---
 
 ## About the question bank
