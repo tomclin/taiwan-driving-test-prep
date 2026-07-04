@@ -1623,7 +1623,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "此標線之意義為『讓路線』，應依其型式與顏色所代表之規定行駛。"
+  "explanation": "此標線之意義為『讓路線』，應依其型式與顏色所代表之規定行駛。",
+  "image": "signs/car_0115.png"
  },
  {
   "id": "car_0116",
@@ -1652,7 +1653,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中箭頭所指白色實線為「路面邊線」，標示於車道最外側，用以界定路面邊緣。"
+  "explanation": "圖中箭頭所指白色實線為「路面邊線」，標示於車道最外側，用以界定路面邊緣。",
+  "image": "signs/car_0117.png"
  },
  {
   "id": "car_0118",
@@ -1681,7 +1683,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "白色虛線為「車道線」，用以劃分同向車道，車輛得在安全時跨越以變換車道。"
+  "explanation": "白色虛線為「車道線」，用以劃分同向車道，車輛得在安全時跨越以變換車道。",
+  "image": "signs/car_0119.png"
  },
  {
   "id": "car_0120",
@@ -1725,7 +1728,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "黃色雙實線為「雙向禁止超車線」，劃分雙向車道，兩向車輛皆不得跨越超車或迴轉。"
+  "explanation": "黃色雙實線為「雙向禁止超車線」，劃分雙向車道，兩向車輛皆不得跨越超車或迴轉。",
+  "image": "signs/car_0122.png"
  },
  {
   "id": "car_0123",
@@ -1739,7 +1743,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "黃色實線與虛線併列為「單向禁止超車線」：實線側禁止超車，虛線側車輛得在安全時超車。"
+  "explanation": "黃色實線與虛線併列為「單向禁止超車線」：實線側禁止超車，虛線側車輛得在安全時超車。",
+  "image": "signs/car_0123.png"
  },
  {
   "id": "car_0124",
@@ -1753,7 +1758,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "白色雙實線為「禁止變換車道線」，兩側車輛均不得跨越變換車道。"
+  "explanation": "白色雙實線為「禁止變換車道線」，兩側車輛均不得跨越變換車道。",
+  "image": "signs/car_0124.png"
  },
  {
   "id": "car_0125",
@@ -1767,7 +1773,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "劃於路側的黃色實線為「禁止停車線」，表示該路段禁止停車。"
+  "explanation": "劃於路側的黃色實線為「禁止停車線」，表示該路段禁止停車。",
+  "image": "signs/car_0125.png"
  },
  {
   "id": "car_0126",
@@ -1781,7 +1788,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中紅色實線為「禁止臨時停車線」，該路段不得臨時停車。"
+  "explanation": "圖中紅色實線為「禁止臨時停車線」，該路段不得臨時停車。",
+  "image": "signs/car_0126.png"
  },
  {
   "id": "car_0127",
@@ -1795,7 +1803,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "黃色虛線為「行車分向線」，劃分雙向車道，車輛得在安全時暫時跨越（如超車），與雙黃實線不同。"
+  "explanation": "黃色虛線為「行車分向線」，劃分雙向車道，車輛得在安全時暫時跨越（如超車），與雙黃實線不同。",
+  "image": "signs/car_0127.png"
  },
  {
   "id": "car_0128",
@@ -1809,7 +1818,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "最外側路面邊線與車道線之間的白色實線為「快慢車道分隔線」，用以分隔快車道與慢車道。"
+  "explanation": "最外側路面邊線與車道線之間的白色實線為「快慢車道分隔線」，用以分隔快車道與慢車道。",
+  "image": "signs/car_0128.png"
  },
  {
   "id": "car_0129",
@@ -1943,7 +1953,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "此標線之意義為『對角線行人穿越道線』，應依其型式與顏色所代表之規定行駛。"
+  "explanation": "此標線之意義為『對角線行人穿越道線』，應依其型式與顏色所代表之規定行駛。",
+  "image": "signs/car_0137.png"
  },
  {
   "id": "car_0138",
@@ -1957,7 +1968,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『減速慢行』。"
+  "explanation": "本題正確答案為『減速慢行』。",
+  "image": "signs/car_0138.png"
  },
  {
   "id": "car_0139",
@@ -2607,7 +2619,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖1、圖2、圖3三者皆屬「停車檢查」標誌，表示前方設有檢查（關卡）處所，車輛應停車受檢。"
+  "explanation": "圖1、圖2、圖3三者皆屬「停車檢查」標誌，表示前方設有檢查（關卡）處所，車輛應停車受檢。",
+  "image": "signs/car_0184.png"
  },
  {
   "id": "car_0185",
@@ -2752,7 +2765,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中自行車騎士之手勢係預告即將「右轉」，用意在讓後方人車提前知悉其行向。"
+  "explanation": "圖中自行車騎士之手勢係預告即將「右轉」，用意在讓後方人車提前知悉其行向。",
+  "image": "signs/car_0194.png"
  },
  {
   "id": "car_0195",
@@ -2864,7 +2878,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『專行車輛(大客車專行)』。"
+  "explanation": "本題正確答案為『專行車輛(大客車專行)』。",
+  "image": "signs/car_0202.png"
  },
  {
   "id": "car_0203",
@@ -3032,7 +3047,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "此標線之意義為『黃色虛線』，應依其型式與顏色所代表之規定行駛。"
+  "explanation": "此標線之意義為『黃色虛線』，應依其型式與顏色所代表之規定行駛。",
+  "image": "signs/car_0214.png"
  },
  {
   "id": "car_0215",
@@ -3331,7 +3347,8 @@
   ],
   "answer": 0,
   "explanation": "正確做法：用以分隔對向車道，並雙向禁止超車。",
-  "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)"
+  "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
+  "image": "signs/car_0235.png"
  },
  {
   "id": "car_0236",
@@ -3429,7 +3446,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『行車分向線』。"
+  "explanation": "本題正確答案為『行車分向線』。",
+  "image": "signs/car_0242.png"
  },
  {
   "id": "car_0243",
@@ -3527,7 +3545,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題標誌之正確意義為『岔路』，應依標誌之圖形與顏色正確判讀。"
+  "explanation": "本題標誌之正確意義為『岔路』，應依標誌之圖形與顏色正確判讀。",
+  "image": "signs/car_0249.png"
  },
  {
   "id": "car_0250",
@@ -5289,7 +5308,7 @@
   "options": [
    "1小時",
    "2小時",
-   "半小時。得連續舉發"
+   "半小時得連續舉發"
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -5345,7 +5364,7 @@
   "options": [
    "應",
    "不需要",
-   "沒規定。繳清未結之違規罰鍰"
+   "沒規定"
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -6293,7 +6312,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中白色斜紋線為「斑馬紋行人穿越道線」，供行人橫越道路之用。"
+  "explanation": "圖中白色斜紋線為「斑馬紋行人穿越道線」，供行人橫越道路之用。",
+  "image": "signs/car_0445.png"
  },
  {
   "id": "car_0446",
@@ -6307,7 +6327,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中白色紋線為「枕木紋行人穿越道線」，多設於路口供行人穿越。"
+  "explanation": "圖中白色紋線為「枕木紋行人穿越道線」，多設於路口供行人穿越。",
+  "image": "signs/car_0446.png"
  },
  {
   "id": "car_0447",
@@ -7315,7 +7336,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中交通指揮手勢代表「全部車輛停止」，各方向車輛均應停止並聽從指揮。"
+  "explanation": "圖中交通指揮手勢代表「全部車輛停止」，各方向車輛均應停止並聽從指揮。",
+  "image": "signs/car_0518.png"
  },
  {
   "id": "car_0519",
@@ -7371,7 +7393,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中交通指揮手勢表示「左面來車速行」，指示左方來車加速通過。"
+  "explanation": "圖中交通指揮手勢表示「左面來車速行」，指示左方來車加速通過。",
+  "image": "signs/car_0522.png"
  },
  {
   "id": "car_0523",
@@ -7432,7 +7455,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中手勢代表「左方來車停止」，左方向車輛應停止。"
+  "explanation": "圖中手勢代表「左方來車停止」，左方向車輛應停止。",
+  "image": "signs/car_0526.png"
  },
  {
   "id": "car_0527",
@@ -7502,7 +7526,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『讓路線』。"
+  "explanation": "本題正確答案為『讓路線』。",
+  "image": "signs/car_0531.png"
  },
  {
   "id": "car_0532",
@@ -8199,7 +8224,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中白色虛線為「路口行車導引線」，用以在路口內導引車輛行進方向。"
+  "explanation": "圖中白色虛線為「路口行車導引線」，用以在路口內導引車輛行進方向。",
+  "image": "signs/car_0580.png"
  },
  {
   "id": "car_0581",
@@ -9474,7 +9500,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中白色橫向實線為「停止線」，車輛應停於其後。"
+  "explanation": "圖中白色橫向實線為「停止線」，車輛應停於其後。",
+  "image": "signs/car_0670.png"
  },
  {
   "id": "car_0671",
@@ -9488,7 +9515,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中黃色雙實線為「分向限制線」，劃分雙向車道且不得跨越、迴轉。"
+  "explanation": "圖中黃色雙實線為「分向限制線」，劃分雙向車道且不得跨越、迴轉。",
+  "image": "signs/car_0671.png"
  },
  {
   "id": "car_0672",
@@ -9517,7 +9545,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中黃色網狀線用以告示駕駛人於該範圍內禁止臨時停車。"
+  "explanation": "圖中黃色網狀線用以告示駕駛人於該範圍內禁止臨時停車。",
+  "image": "signs/car_0673.png"
  },
  {
   "id": "car_0674",
@@ -9673,11 +9702,12 @@
   "options": [
    "出口",
    "車道",
-   "地名。之指示標誌"
+   "地名之指示標誌"
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『車道』。"
+  "explanation": "本題正確答案為『車道』。",
+  "image": "signs/car_0684.png"
  },
  {
   "id": "car_0685",
@@ -9706,7 +9736,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『車輛故障標誌』。"
+  "explanation": "本題正確答案為『車輛故障標誌』。",
+  "image": "signs/car_0686.png"
  },
  {
   "id": "car_0687",
@@ -9720,7 +9751,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『地名方向指示』。"
+  "explanation": "本題正確答案為『地名方向指示』。",
+  "image": "signs/car_0687.png"
  },
  {
   "id": "car_0688",
@@ -10112,7 +10144,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『分道』。"
+  "explanation": "本題正確答案為『分道』。",
+  "image": "signs/car_0715.png"
  },
  {
   "id": "car_0716",
@@ -10140,7 +10173,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『遵行方向』。"
+  "explanation": "本題正確答案為『遵行方向』。",
+  "image": "signs/car_0717.png"
  },
  {
   "id": "car_0718",
@@ -10257,7 +10291,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『減速慢行』。"
+  "explanation": "本題正確答案為『減速慢行』。",
+  "image": "signs/car_0725.png"
  },
  {
   "id": "car_0726",
@@ -10299,7 +10334,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中標誌指示前面150公尺處之最右側車道為慢速車爬坡之專用車道。"
+  "explanation": "圖中標誌指示前面150公尺處之最右側車道為慢速車爬坡之專用車道。",
+  "image": "signs/car_0728.png"
  },
  {
   "id": "car_0729",
@@ -10341,7 +10377,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題標誌之正確意義為『單行道』，應依標誌之圖形與顏色正確判讀。"
+  "explanation": "本題標誌之正確意義為『單行道』，應依標誌之圖形與顏色正確判讀。",
+  "image": "signs/car_0731.png"
  },
  {
   "id": "car_0732",
@@ -10369,7 +10406,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『左右轉方向』。"
+  "explanation": "本題正確答案為『左右轉方向』。",
+  "image": "signs/car_0733.png"
  },
  {
   "id": "car_0734",
@@ -10467,7 +10505,8 @@
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "本題正確答案為『前方道路施工』。"
+  "explanation": "本題正確答案為『前方道路施工』。",
+  "image": "signs/car_0740.png"
  },
  {
   "id": "car_0741",
@@ -10495,7 +10534,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "此為警告標誌，提醒車輛應減速慢行、注意前方狀況。"
+  "explanation": "此為警告標誌，提醒車輛應減速慢行、注意前方狀況。",
+  "image": "signs/car_0742.png"
  },
  {
   "id": "car_0743",
@@ -10509,7 +10549,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "圖中交通指揮手勢表示「左面來車左轉彎」。"
+  "explanation": "圖中交通指揮手勢表示「左面來車左轉彎」。",
+  "image": "signs/car_0743.png"
  },
  {
   "id": "car_0744",
@@ -10523,7 +10564,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "遇此警告情況，較安全的做法是減速慢行、提高警覺。"
+  "explanation": "遇此警告情況，較安全的做法是減速慢行、提高警覺。",
+  "image": "signs/car_0744.png"
  },
  {
   "id": "car_0745",
@@ -10748,7 +10790,8 @@
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "此標線之意義為『近障礙物線』，應依其型式與顏色所代表之規定行駛。"
+  "explanation": "此標線之意義為『近障礙物線』，應依其型式與顏色所代表之規定行駛。",
+  "image": "signs/car_0760.png"
  },
  {
   "id": "car_0761",
@@ -11486,7 +11529,7 @@
   "options": [
    "大於",
    "小於",
-   "等於。停車距離"
+   "等於停車距離"
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -11570,7 +11613,7 @@
   "options": [
    "40公尺",
    "50公尺",
-   "60公尺。以上之行車安全距離"
+   "60公尺以上之行車安全距離"
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -11584,7 +11627,7 @@
   "options": [
    "20 公尺",
    "30公尺",
-   "50公尺。以上之安全距離"
+   "50公尺以上之安全距離"
   ],
   "answer": 0,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -11654,7 +11697,7 @@
   "options": [
    "40公尺",
    "50公尺",
-   "100公尺。以上之行車安全距離"
+   "100公尺以上之行車安全距離"
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -13300,7 +13343,7 @@
   "options": [
    "104",
    "117",
-   "1968。電話之路況報導，掌握即時道路交通狀況，彈性調整行駛路線"
+   "1968電話之路況報導，掌握即時道路交通狀況，彈性調整行駛路線"
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -13314,7 +13357,7 @@
   "options": [
    "僅大型車",
    "僅慢速車",
-   "大型車及慢速車。不得佔用內側車道，以避免其他車輛為超車而任意變換車道"
+   "大型車及慢速車不得佔用內側車道，以避免其他車輛為超車而任意變換車道"
   ],
   "answer": 2,
   "explanation": "正確做法：大型車及慢速車。不得佔用內側車道，以避免其他車輛為超車而任意變換車道。",
@@ -14145,7 +14188,8 @@
   ],
   "answer": 1,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
-  "explanation": "此燈號為「低燃油油位警示燈」，代表油量偏低，應儘速加油。"
+  "explanation": "此燈號為「低燃油油位警示燈」，代表油量偏低，應儘速加油。",
+  "image": "signs/car_1002.png"
  },
  {
   "id": "car_1003",
@@ -15056,7 +15100,7 @@
   "options": [
    "D",
    "R",
-   "P。之位置上"
+   "P之位置上"
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",
@@ -15084,7 +15128,7 @@
   "options": [
    "Ｄ檔",
    "Ｒ檔",
-   "Ｐ檔。以防止車輛滑動"
+   "Ｐ檔以防止車輛滑動"
   ],
   "answer": 2,
   "source": "Taiwan Highway Bureau official car written test question bank, 2026 (公路局 115.06.09版)",

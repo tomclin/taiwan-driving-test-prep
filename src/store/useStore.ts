@@ -7,7 +7,7 @@ import sample from '../data/sampleQuestions.json'
 
 // Bump when the bundled seed bank changes so existing installs pick it up
 // (progress is keyed separately by question id and is preserved).
-const SEED_VERSION = 13
+const SEED_VERSION = 14
 
 /** Drop items that can't yet be answered/rendered (e.g. image-option UI pending). */
 const liveOnly = (qs: Question[]) => qs.filter((q) => !q.pendingRender)
