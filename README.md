@@ -73,7 +73,7 @@ taiwan-driving-test-prep/
 ├── tailwind.config.js
 ├── public/
 │   ├── icon.svg              # app icon (replace with your own PNGs if desired)
-│   ├── signs/                # 113 official sign graphics (95 stem + 18 option), by id
+│   ├── signs/                # 157 official graphics (139 question-stem figures + 18 option signs), by id
 │   └── questions.json        # full 1,090-item record (format reference / import demo)
 └── src/
     ├── main.tsx              # HashRouter entry (GitHub-Pages friendly)
